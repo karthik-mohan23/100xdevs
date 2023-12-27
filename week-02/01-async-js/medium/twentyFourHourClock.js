@@ -1,4 +1,4 @@
-function twelveHourClock() {
+function twentyFourHourClock() {
   const date = new Date();
   let hh = date.getHours();
   let mm = date.getMinutes();
@@ -14,7 +14,7 @@ function twelveHourClock() {
 
   console.log(time);
 
-  setTimeout(twelveHourClock, 1000);
+  setTimeout(twentyFourHourClock, 1000);
 }
 
-twelveHourClock();
+twentyFourHourClock();
